@@ -11,7 +11,7 @@ import _debug from "debug";
 import { CLIError } from "./CLIError";
 import { awsConfig, ProfileConfig } from "./awsConfig";
 import { paths } from "./paths";
-import mkdirp from "mkdirp";
+import { mkdirp } from 'mkdirp';
 import { Agent } from "https";
 import { NodeHttpHandler } from "@smithy/node-http-handler";
 import { HttpsProxyAgent } from "hpagent";
